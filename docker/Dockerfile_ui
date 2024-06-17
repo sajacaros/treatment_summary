@@ -1,0 +1,32 @@
+# Ubuntu 22.04를 기본 이미지로 설정
+FROM python:3.9-slim
+
+LABEL maintainer="sajacaros"
+
+# Generate locale C.UTF-8
+ENV LANG C.UTF-8
+ENV TZ=Asia/Seoul
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# 시스템 업데이트 및 필요한 라이브러리 설치
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    software-properties-common \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install streamlit python-dotenv psutil
+
+COPY ./charting_ui.py .
+COPY ./docker/.env .
+COPY ./dukim /dukim
+
+VOLUME ["/data"]
+
+EXPOSE 8080
+
+WORKDIR /
+
+ENTRYPOINT [ "streamlit", "run" ]
+CMD ["charting_ui.py", "--server.port", "8080", "--server.headless", "true", "--server.fileWatcherType", "none", "--browser.gatherUsageStats", "false"]

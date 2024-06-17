@@ -1,0 +1,31 @@
+# Ubuntu 22.04를 기본 이미지로 설정
+FROM ubuntu:22.04
+
+LABEL maintainer="sajacaros"
+
+# Generate locale C.UTF-8
+ENV LANG C.UTF-8
+ENV TZ=Asia/Seoul
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# 시스템 업데이트 및 필요한 라이브러리 설치
+RUN apt-get update  \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends python3 python3-pip ffmpeg git \
+    && apt clean all && apt autoremove && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install openai python-dotenv pydub streamlit ffmpeg-python soundfile nlptutti torch torchvision torchaudio
+RUN pip3 install -U git+https://github.com/jianfch/stable-ts.git
+
+COPY ./local_app.py .
+COPY ./docker/.env .
+COPY ./dukim /dukim
+COPY ./data/model/whisper/medium.pt /root/.cache/whisper/
+COPY ./data/model/snakers4_silero-vad_master/ /root/.cache/torch/hub/snakers4_silero-vad_master/
+
+VOLUME ["/data"]
+
+EXPOSE 8080
+
+WORKDIR /
+
+ENTRYPOINT [ "python3", "local_app.py" ]

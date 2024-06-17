@@ -1,0 +1,221 @@
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 명작한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:01
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:36
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:41
+normal_basic/명작한의원.wav's TEXT 추출 시작
+Transcribe: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 769.4/769.4 [02:11<00:00,  5.86sec/s]
+normal_basic/명작한의원.wav's STT, 걸린 시간 : 0:02:11
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 바르다한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:01
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:26
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:28
+normal_basic/바르다한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 485.27/485.27 [01:48<00:00,  4.49sec/s]
+normal_basic/바르다한의원.wav's STT, 걸린 시간 : 0:01:48
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 봄한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:00
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:10
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:11
+normal_basic/봄한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 193.68/193.68 [00:42<00:00,  4.61sec/s]
+normal_basic/봄한의원.wav's STT, 걸린 시간 : 0:00:42
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 생명마루한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:01
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:30
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:33
+normal_basic/생명마루한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 628.75/628.75 [02:00<00:00,  5.22sec/s]
+normal_basic/생명마루한의원.wav's STT, 걸린 시간 : 0:02:01
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 세호한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:46
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:49
+normal_basic/세호한의원.wav's TEXT 추출 시작
+Transcribe: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 867.0/867.0 [04:26<00:00,  3.26sec/s]
+normal_basic/세호한의원.wav's STT, 걸린 시간 : 0:04:26
+repeated_words : [감정증이, 좀]
+repeated occurred - has_repeated_word=True
+speech_to_text end
+count : 1, temperature : 0.2
+speech_to_text start
+--- STT 작업 시작 ---, 세호한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:46
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:49
+normal_basic/세호한의원.wav's TEXT 추출 시작
+Transcribe: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 867.0/867.0 [03:08<00:00,  4.60sec/s]
+normal_basic/세호한의원.wav's STT, 걸린 시간 : 0:03:09
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 아나파한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:47
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:51
+normal_basic/아나파한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 667.86/667.86 [01:58<00:00,  5.63sec/s]
+normal_basic/아나파한의원.wav's STT, 걸린 시간 : 0:01:59
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 운남한의원.MP3
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:01
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:32
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:36
+normal_basic/운남한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 665.98/665.98 [02:21<00:00,  4.71sec/s]
+normal_basic/운남한의원.wav's STT, 걸린 시간 : 0:02:22
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 인애한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:41
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:44
+normal_basic/인애한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 801.06/801.06 [02:50<00:00,  4.69sec/s]
+normal_basic/인애한의원.wav's STT, 걸린 시간 : 0:02:51
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 참뿌리한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:00
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:00
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:41
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:43
+normal_basic/참뿌리한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 888.85/888.85 [02:53<00:00,  5.12sec/s]
+normal_basic/참뿌리한의원.wav's STT, 걸린 시간 : 0:02:54
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 통달한의원.m4a
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:02
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:01
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:00:38
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:00:42
+normal_basic/통달한의원.wav's TEXT 추출 시작
+Transcribe: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 791.05/791.05 [02:19<00:00,  5.66sec/s]
+normal_basic/통달한의원.wav's STT, 걸린 시간 : 0:02:20
+speech_to_text end
+count : 0, temperature : 0.0
+speech_to_text start
+--- STT 작업 시작 ---, 하슬라한의원.mp3
+pipe - Pipechain's pipe start
+pipe - ToWav's pipe start
+pipe - ToWav's pipe end, 걸린 시간 : 0:00:04
+pipe - AudioNormalizer(dBFS)'s pipe start
+pipe - AudioNormalizer(dBFS)'s pipe end, 걸린 시간 : 0:00:01
+pipe - SilentRemoverVAD's pipe start
+pipe - SilentRemoverVAD's pipe end, 걸린 시간 : 0:01:13
+pipe - AudioNormalizer(basic)'s pipe start
+pipe - AudioNormalizer(basic)'s pipe end, 걸린 시간 : 0:00:00
+pipe - Pipechain's pipe end, 걸린 시간 : 0:01:20
+normal_basic/하슬라한의원.wav's TEXT 추출 시작
+Transcribe: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1335.55/1335.55 [04:11<00:00,  5.30sec/s]
+normal_basic/하슬라한의원.wav's STT, 걸린 시간 : 0:04:12
+speech_to_text end
+명작한의원, cer: 0.1303, wer: 0.2990
+바르다한의원, cer: 0.0937, wer: 0.1654
+봄한의원, cer: 0.2906, wer: 0.4894
+생명마루한의원, cer: 0.1612, wer: 0.2288
+세호한의원, cer: 0.1443, wer: 0.2517
+아나파한의원, cer: 0.1119, wer: 0.2189
+운남한의원, cer: 0.1210, wer: 0.2049
+인애한의원, cer: 0.2015, wer: 0.3416
+참뿌리한의원, cer: 0.0819, wer: 0.1605
+통달한의원, cer: 0.2189, wer: 0.3868
+하슬라한의원, cer: 0.1557, wer: 0.2448
+--------------------
+         mean     std
+cer: 0.1555, 0.0584
+wer: 0.2720, 0.0954
